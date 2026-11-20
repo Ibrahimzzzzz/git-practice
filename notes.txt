@@ -1,0 +1,11 @@
+Git practice notes
+
+a. git add vs. git commit
+
+git add moves changes into the staging area, which is a holding spot for what you plan to save next. git commit takes everything in the staging area and saves it.
+
+Git restore restored hello.cpp into its original state
+
+hello.exe  adds nothing that the source code doesn’t already provide also commit it will flag a change every time you compile.
+
+git restore works on uncommitted changes. It discards edits in your working directory and doesn’t create any history. git revert works on a commit that already exists. It creates a new commit that undoes the changes of an earlier one, so the original commit stays in the history and the undo is recorded too.
